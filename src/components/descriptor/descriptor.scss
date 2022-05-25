@@ -1,0 +1,56 @@
+.descriptor {
+    .label {
+        font-weight: bold;
+    }
+
+    .flags {
+        .flag {
+            border: 1px solid gray;
+            border-radius: 10px;
+            padding: 2px 5px;
+            margin: 2px;
+
+            @media (max-width: 768px) {
+                font-size: 0;
+                border: none;
+            }
+        }
+    }
+    .exit-policy {
+        .accept {
+            border: 1px solid darkgreen;
+            background-color: green;
+            color: white;
+            border-radius: 10px;
+            padding: 2px 5px;
+            margin: 2px;
+        }
+        .reject {
+            border: 1px solid darkred;
+            background-color: red;
+            color: white;
+            border-radius: 10px;
+            padding: 2px 5px;
+            margin: 2px;
+        }
+    }
+
+    dl {
+        margin-top: 0;
+        margin-bottom: 20px;
+
+        dt {
+            font-weight: 700;
+        }
+
+        dd {
+            word-break: break-word;
+            hyphens: auto;
+            margin-left: 0;
+        }
+
+        dd, dt {
+            line-height: 1.42857143;
+        }
+    }
+}

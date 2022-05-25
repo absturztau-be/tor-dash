@@ -1,0 +1,15 @@
+{
+    "name": "root/tor-dash",
+    "type": "project",
+    "require": {
+        "dapphp/torutils": "^1.15",
+        "slim/slim": "^4.10",
+        "slim/psr7": "^1.5"
+    },
+    "authors": [
+        {
+            "name": "Absturztaube",
+            "email": "me@absturztaube.ch"
+        }
+    ]
+}
